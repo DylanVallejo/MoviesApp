@@ -10,8 +10,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
-
-@Document(collection = "1movies")
+//@Document(collection = "nombreColeccion")
+@Document(collection = "movie")
 //make reference of getters and setter from lombok
 @Data
 @AllArgsConstructor
