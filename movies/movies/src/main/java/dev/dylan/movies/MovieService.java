@@ -13,11 +13,11 @@ public class MovieService {
     @Autowired
     private MovieRepository movieRepository;
     public List<Movie> allMovies(){
-//        System.out.println("hola ");
+//        System.out.println("hola");
 //        System.out.println(movieRepository.findAll());
         return movieRepository.findAll();
     }
-// finding  amovie by id
+// finding  a movie by id
     public Optional<Movie> singleMovie(String imdbId){
         return movieRepository.findMovieByImdbId(imdbId);
     }
